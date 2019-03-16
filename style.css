@@ -1,0 +1,217 @@
+/**
+  how to make inputs responsive?
+  how to make portfolio text still an element/how to bring table content together?
+*/
+
+header {
+  border-bottom-style: solid;
+  background-color: #ffffff;
+  border-bottom-color: #cccccc;
+  border-bottom-width: 3px;
+  height: 66px;
+  margin: 0;
+}
+.header-constraint {
+  margin-left: 18%;
+  margin-right: 18%;
+  position: relative;
+  max-width: 960px;
+}
+h1 {
+  margin: 0;
+  padding: 15px;
+  float: left;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+}
+.header-links {
+  float: right;
+  color: #777777;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  margin: 10px;
+  margin-top: 23px;
+}
+span {
+  float: right;
+  color: #777777;
+  margin: 10px;
+  font-weight: bold;
+  margin-top: 21px;
+}
+body {
+  background-image: url(images/dynamic-background-style.png);
+  margin: 0;
+}
+.content {
+  min-height: calc(100vh - 51px);
+}
+section {
+  position: relative;
+  margin-left: 18%;
+  margin-top: 20px;
+  margin-right: 18%;
+  background: #ffffff;
+  max-width: 960px;
+  overflow: auto;
+  border-color: #dddddd;
+  border-style: solid;
+  border-width: 1px;
+}
+.segment-title {
+  padding: 0;
+  background-color: #ffffff;
+  color: #4aaaa5;
+  margin: 20px;
+}
+hr {
+  clear: both;
+  margin: 20px;
+  background-color: #cccccc;
+  border: none;
+  height: 2px;
+}
+#about-pic {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio-image {
+  margin: 20px;
+  display: inline;
+}
+
+p {
+  color: #777777;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  margin-right: 20px;
+}
+input {
+  width: 520%;
+  height: 20px;
+}
+#form-content {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+#message {
+  height: 170px;
+  width: 520%;
+}
+#s-button {
+  text-decoration: none;
+  height: 18.4px;
+  width: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 50%;
+  text-align: center;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  padding-bottom: 1px;
+  padding-top: 20px;
+  border-top-style: solid;
+  border-top-width: 7px;
+  border-top-color: #4aaaa5;
+}
+.sticky-footer {
+  position: relative;
+}
+@media screen and (max-width: 980px) {
+  .header-constraint {
+    margin: auto;
+  }
+  h1 {
+    margin-left: 4%;
+  }
+  #link-constraint {
+    margin-right: 4%;
+  }
+  section {
+    margin-left: 4%;
+    margin-right: 20%;
+  }
+  input {
+    width: 390%;
+  }
+  #message {
+    height: 170px;
+    width: 390%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-constraint {
+    margin: auto;
+  }
+  h1 {
+    margin-left: 1%;
+  }
+  section {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  input {
+    width: 375%;
+  }
+  #message {
+    height: 170px;
+    width: 375%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h1,
+  .header-links,
+  span {
+    position: static;
+    float: none;
+    text-align: center;
+    margin: auto;
+  }
+  #link-constraint {
+    margin-left: 28%;
+    margin-top: 13px;
+  }
+  header {
+    padding-bottom: 10%;
+  }
+  #about-pic {
+    float: none;
+    margin-left: 24%;
+  }
+  p {
+    margin: 5px;
+  }
+  input {
+    width: 200%;
+  }
+  #message {
+    height: 170px;
+    width: 200%;
+  }
+  td {
+    margin: 20px;
+    margin-left: 17%;
+    display: inline;
+  }
+}
