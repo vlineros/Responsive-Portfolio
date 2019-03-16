@@ -91,8 +91,15 @@ p {
   margin-right: 20px;
 }
 input {
-  width: 520%;
+  display: block;
+  width: 55vw;
   height: 20px;
+}
+ul {
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
 }
 #form-content {
   float: left;
@@ -101,8 +108,9 @@ input {
   margin-bottom: 20px;
 }
 #message {
+  display: block;
   height: 170px;
-  width: 520%;
+  width: 55vw;
 }
 #s-button {
   text-decoration: none;
@@ -151,11 +159,10 @@ footer {
     margin-right: 20%;
   }
   input {
-    width: 390%;
+    width: 65vw;
   }
   #message {
-    height: 170px;
-    width: 390%;
+    width: 65vw;
   }
 }
 
@@ -169,13 +176,6 @@ footer {
   section {
     margin-left: 3%;
     margin-right: 3%;
-  }
-  input {
-    width: 375%;
-  }
-  #message {
-    height: 170px;
-    width: 375%;
   }
 }
 
@@ -201,13 +201,6 @@ footer {
   }
   p {
     margin: 5px;
-  }
-  input {
-    width: 200%;
-  }
-  #message {
-    height: 170px;
-    width: 200%;
   }
   td {
     margin: 20px;
